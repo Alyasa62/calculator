@@ -39,7 +39,6 @@ int main() {
 	      cout << "Division of " << num1 << " and " << num2 << " is: " << num1 / num2 << endl;
 		}
 		else if (choice == 5) {
-            
 			break;
 		}
 		cout << "\n";
