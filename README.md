@@ -7,3 +7,5 @@ It can perform following operations on any two numbers.
 3. Multiplication.
 4. Division.
 
+# Download
+You can download the latest release from releases section. :)
