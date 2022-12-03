@@ -1,4 +1,4 @@
-# calculator
+# Calculator
 This is a calculator.
 ### Features
 It can perform following operations on any two numbers.

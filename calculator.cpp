@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 	float num1, num2;
-	int choice;
+	string choice;
 	
 	while (true) {
 		// Get input from user.
@@ -26,21 +26,25 @@ int main() {
 	    cin >> choice;
 
 		// Perform operations based on choice.
-	    if (choice == 1) {
-	      cout << "Sum of " << num1 << " and " << num2 << " is: " << num1 + num2 << endl;
+	    if (choice == "1") {
+	    	cout << "Sum of " << num1 << " and " << num2 << " is: " << num1 + num2 << endl;
 	    }
-		else if (choice == 2) {
-	      cout << "Difference of " << num1 << " and " << num2 << " is: " << num1 - num2 << endl;
+		else if (choice == "2") {
+	    	cout << "Difference of " << num1 << " and " << num2 << " is: " << num1 - num2 << endl;
 		}
-		else if (choice == 3) {
-	      cout << "Product of " << num1 << " and " << num2 << " is: " << num1 * num2 << endl;
+		else if (choice == "3") {
+			cout << "Product of " << num1 << " and " << num2 << " is: " << num1 * num2 << endl;
 		}
-		else if (choice == 4 ) {
-	      cout << "Division of " << num1 << " and " << num2 << " is: " << num1 / num2 << endl;
+		else if (choice == "4" ) {
+			cout << "Division of " << num1 << " and " << num2 << " is: " << num1 / num2 << endl;
 		}
-		else if (choice == 5) {
+		else if (choice == "5") {
 			break;
 		}
-		cout << "\n";
+		else {
+			cout << "Invalid choice." << endl;
+		}
+
+		cout << endl;
 	}
 }
